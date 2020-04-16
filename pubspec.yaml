@@ -42,7 +42,7 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-   assets:
+  assets:
     - assets/icons/
     - assets/images/
 
@@ -57,13 +57,14 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-   fonts:
-     - family: Schyler
+  fonts:
+     - family: Poppins
        fonts:
-         - asset: assets/fonts/Poppin-Regular.ttf
-         - asset: assets/fonts/Poppin-Bold.ttf
-           style: bold
-         - asset: assets/fonts/Poppin-Bold.ttf
+         - asset: assets/fonts/Poppins-Regular.ttf
+         - asset: assets/fonts/Poppins-Bold.ttf
+           weight: 700
+         - asset: assets/fonts/Poppins-Medium.ttf
+           weight: 600
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
